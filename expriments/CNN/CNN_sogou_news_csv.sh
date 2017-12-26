@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 cd ../../
-dataset="ag_news_csv"
+dataset="sogou_news_csv"
 epoch_size=200
 batch_size=128
 dropout=0.5
+
 python train_CNN.py --train-path "data/${dataset}/train.csv" \
                     --val-path "data/${dataset}/test.csv" \
                     --epochs ${epoch_size} \

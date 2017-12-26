@@ -57,7 +57,7 @@ experiment.add_argument('--save-folder', default='checkpoints/SWCNN', help='Loca
 experiment.add_argument('--log-config', default=True, action='store_true', help='Store experiment configuration')
 experiment.add_argument('--log-result', default=True, action='store_true', help='Store experiment result')
 experiment.add_argument('--log-interval',  type=int, default=1,   help='how many steps to wait before logging training status [default: 1]')
-experiment.add_argument('--val-interval', type=int, default=1000, help='how many steps to wait before vaidation [default: 400]')
+experiment.add_argument('--val-interval', type=int, default=400, help='how many steps to wait before vaidation [default: 400]')
 experiment.add_argument('--save-interval', type=int, default=1, help='how many epochs to wait before saving [default:1]')
 
 
