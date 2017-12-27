@@ -13,4 +13,4 @@ python train_SWCNN.py --train-path "data/${dataset}/train.csv" \
                     --lr 0.0005 \
                     --dynamic-lr \
                     --decay-factor 0 \
-                    --save-folder "checkpoints/SWCNN/${dataset}" 
+                    --save-folder "checkpoints/SWCNN/${dataset}"
