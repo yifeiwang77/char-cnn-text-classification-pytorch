@@ -4,8 +4,8 @@
 
 This is an implementation of several recent adavances in character-level text classification (particular with CNN), including 
 
-* (CharCNN)        Xiang Zhang, Junbo Zhao, Yann LeCun.(2017) [Character-level Convolutional Networks for Text Classification](http://arxiv.org/abs/1509.01626). 
-* (CharCRNN)       Yijun Xiao, Kyunghyun Cho, [Efficient Character-level Document Classification by Combining Convolution and Recurrent Layers](https://arxiv.org/pdf/1602.00367).
+* (CharCNN)        Xiang Zhang, Junbo Zhao, Yann LeCun.(2015) [Character-level Convolutional Networks for Text Classification](http://arxiv.org/abs/1509.01626). 
+* (CharCRNN)       Yijun Xiao, Kyunghyun Cho. (2016) [Efficient Character-level Document Classification by Combining Convolution and Recurrent Layers](https://arxiv.org/pdf/1602.00367).
 * (VDCNN)          Conneau, A., Schwenk, H., Barrault, L., & Lecun, Y. (2017). [Very deep convolutional networks for text classification.](http://www.aclweb.org/anthology/E17-1104).
 * (ShadowWideCNN)  Le, H. T., Cerisara, C., & Denis, A. (2017). [Do Convolutional Networks need to be Deep for Text Classification?](https://arxiv.org/pdf/1707.04108.pdf).
 
