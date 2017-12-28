@@ -126,7 +126,7 @@ def load(label_data_path, lowercase=True):
 def get_train_val_data(label_data_path, alphabet_path, l0=1014, onehot=True):
     nclass = class_num(label_data_path)
     data, label = load(label_data_path)
-    X_train, X_val, y_train, y_val = train_test_split(data, label, test_size=0.01, shuffle=True) 
+    X_train, X_val, y_train, y_val = train_test_split(data, label, test_size=0.001, shuffle=True) 
     train_dataset = AGNEWs(X_train, y_train, alphabet_path, l0, onehot)
     val_dataset = AGNEWs(X_train, y_train, alphabet_path, l0, onehot)
     return nclass, train_dataset, val_dataset
